@@ -1,0 +1,109 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+.orange-color{
+    color: orange;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    margin-top: 3%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 85%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-weight: 300;
+    color: white;
+}
+.about-me{
+    background-image: url(images/shapes/7.png);
+    padding: 5px 10px;
+    background-repeat: no-repeat;
+}
+.recipe-item{
+    display: flex;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.recipe-section h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+.recipe-section p{
+    text-align: center;
+}
+.items{
+    height: 50%;
+    width: 28%;
+    padding: 10px 20px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 30px #3b3636;
+    margin-left: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    justify-content: space-between;
+}
+.items h1{
+    padding: 5px;
+    text-align: left;
+}
+.items p{
+    padding: 5px;
+    text-align: left;
+}
+.items img{ 
+    width: 100%;
+    height: 50%;
+}
+.feedback-area{
+    margin-top: 50px;
+    color: rgb(19, 18, 18);
+    height: 190px;
+    text-align: center;
+    padding-top: 10px;
+    background-size: cover;
+}
+#textbox{
+    margin-top: 10px;
+        color: #000;
+        cursor: pointer;
+        height: 50px;
+        border: none;
+        border-radius: 5px;
+    }
+#submitbox{
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 10px;
+    background-image: linear-gradient(rgb(34, 31, 31), rgb(97, 109, 109));
+}
+#submitbox:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right,rgb(133, 114, 80),rgb(223, 38, 38));
+}
+
+footer{
+    margin-top: 50px;
+    height: 130px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    background-color: rgb(39, 35, 35);
+}
+footer h3{
+    color: tomato;
+}
